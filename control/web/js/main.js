@@ -28,7 +28,7 @@ axios
 }
 
 adelante.addEventListener("click", function(){
-    callApi("a");
+    callApi("f");
 });
 
 atrás.addEventListener("click", function(){
@@ -36,11 +36,11 @@ atrás.addEventListener("click", function(){
 });
 
 izquierda.addEventListener("click", function(){
-  callApi("c");
+  callApi("l");
 });
 
 derecha.addEventListener("click", function(){
-  callApi("d");
+  callApi("r");
 });
 
 detener.addEventListener("click", function(){
